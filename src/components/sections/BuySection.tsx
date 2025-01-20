@@ -6,7 +6,7 @@ import htbLogo from "@/assets/htb-logo.png";
 
 export function BuySection() {
   const [copied, setCopied] = useState(false);
-  const contractAddress = "d7tdpw8mnseb3dpmnuskv2utzmvvgaehcm9hhibsmoon";
+  const contractAddress = "D7TDPW8MNSEB3DPMNUSKV2UTZMVVGAEHCM9HHIBSMOON";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(contractAddress);
@@ -86,9 +86,7 @@ export function BuySection() {
 
         {/* Contract Address Section */}
         <div className="mt-16" id="contract">
-          <Heading className="mb-8 text-center">
-            Solana Contract Address
-          </Heading>
+          <Heading className="mb-8 text-center">Contract Address</Heading>
           <div className="max-w-3xl p-6 mx-auto bg-white/15 backdrop-blur-sm rounded-2xl">
             <div className="flex flex-wrap items-center justify-between gap-4">
               <div className="flex items-center gap-3">
