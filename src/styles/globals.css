@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "GeistMono";
+  src: url("../assets/fonts/GeistMonoVF.woff") format("woff");
+  font-weight: 100 900; /* variable font weight range */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GeistVF";
+  src: url("../assets/fonts/GeistVF.woff") format("woff");
+  font-weight: 100 900;
+  font-style: normal;
+}
