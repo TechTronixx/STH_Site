@@ -87,7 +87,7 @@ export function HeroSection() {
                 </Carousel>
               </div>
 
-              <div className="space-y-4">
+              <div className="py-4 space-y-4">
                 <Heading size="4xl">
                   <span className="text-goldAccent">Sol</span>
                   <span className="text-white">TimeHigh</span>
@@ -127,7 +127,7 @@ export function HeroSection() {
                 href="https://x.com/soltimehigh/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-8 py-3 text-lg transition-all duration-300 transform border-2 rounded-full border-goldAccent text-goldAccent hover:bg-goldAccent hover:text-black font-geistmono hover:scale-105"
+                className="px-8 py-3 text-lg transition-all duration-300 transform border-2 rounded-full border-goldAccent text-goldAccent hover:bg-goldAccent hover:text-black font-isidora hover:scale-105"
               >
                 Join Community
               </a>
@@ -135,18 +135,18 @@ export function HeroSection() {
           </div>
         </Container>
 
-        <div className="relative z-10 py-6">
+        <div className="relative z-10 py-2">
           <Heading className="max-w-4xl mx-auto text-center">
             Join the Cult
           </Heading>
-          <Heading size="3xl" className="max-w-4xl mx-auto mt-2 text-center">
+          <Heading size="3xl" className="max-w-4xl mx-auto text-center">
             Make Memecoins Great Again
           </Heading>
         </div>
       </section>
 
       {/* Velocity Scroll Text */}
-      <div className="py-12 bg-black">
+      <div className="py-6 bg-black">
         <VelocityScroll
           text="$STH"
           default_velocity={3}

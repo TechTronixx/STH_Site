@@ -87,7 +87,7 @@ const Navbar = () => {
           <div className="relative" ref={moreButtonRef}>
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-[#9CA3AF] hover:text-goldAccent flex items-center text-[15px] font-geist font-medium"
+              className="text-white/85 hover:text-goldAccent flex items-center text-[15px] font-geist font-medium"
             >
               More
               <svg
