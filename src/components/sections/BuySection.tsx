@@ -93,9 +93,7 @@ export function BuySection() {
                 <span className="px-3 py-2 rounded-lg bg-yellow-400/45 font-geistmono">
                   CA:
                 </span>
-                <span className="text-lg font-geistmono">
-                  {contractAddress}
-                </span>
+                <span className="text-md font-isidora">{contractAddress}</span>
               </div>
               <button
                 onClick={handleCopy}

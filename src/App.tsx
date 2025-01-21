@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <main className="pt-16">
+      <main className="pt-16 font-isidora">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/how-to-buy" element={<HowToBuy />} />

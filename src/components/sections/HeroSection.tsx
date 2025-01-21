@@ -9,7 +9,8 @@ import image4 from "@/assets/t5.png";
 import { Heading } from "../ui/Heading";
 import { VelocityScroll } from "../ui/scroll-based-velocity";
 import { BuySection } from "./BuySection";
-import webBg from "@/assets/web_bg.png";
+// import webBg from "@/assets/web_bg.png";
+import bgcto from "@/assets/bg-cto.jpg";
 import { About } from "./About";
 import { Faqs } from "./Faqs";
 import { Allocation } from "./Allocation";
@@ -37,9 +38,9 @@ export function HeroSection() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img
-            src={webBg}
+            src={bgcto}
             alt="Background"
-            className="object-cover w-full h-full opacity-20"
+            className="object-cover w-full h-full opacity-40"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/25 to-black/75" />
         </div>
@@ -94,11 +95,11 @@ export function HeroSection() {
                 {/* //carousel */}
 
                 <p className="text-xl font-normal md:text-2xl font-isidora text-goldAccent">
-                  Stand for Something
+                  Stand for Something!
                 </p>
 
-                <p className="text-lg font-geist text-slate-400">
-                  Make Memecoins Great Again
+                <p className="text-3xl font-bold text-white">
+                  <span className="text-goldAccent">$</span>STH
                 </p>
               </div>
             </div>
@@ -134,7 +135,7 @@ export function HeroSection() {
           </div>
         </Container>
 
-        <div className="relative z-10">
+        <div className="relative z-10 py-6">
           <Heading className="max-w-4xl mx-auto text-center">
             Join the Cult
           </Heading>
